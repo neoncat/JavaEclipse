@@ -1,0 +1,19 @@
+package dao;
+
+import java.sql.*;
+import JavaMySQL.model.Usuario;
+
+public class Driver {
+	
+	public static void main(String[] args) {
+		
+		try {
+			Usuario u = new Usuario();
+		}
+		catch(Exception ex) {
+			ex.printStackTrace();
+		}
+		
+	}
+
+}
